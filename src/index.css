@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #003C43;
+    --bg-color-opacity: #006f7b;
+    --text-color: #E3FEF7;
+    --box-color: #77B0AA;
+}
+
+@font-face {
+  font-family: 'font-bold'; /* El nombre que le das a tu fuente */
+  src: url('./fonts/SpaceMono-Bold.ttf') format('truetype'); /* Ruta a la fuente descargada */
+}
+
+@font-face {
+  font-family: 'font-regular'; /* El nombre que le das a tu fuente */
+  src: url('./fonts/SpaceMono-Regular.ttf') format('truetype'); /* Ruta a la fuente descargada */
+}
+
+
+body {
+  margin: 0;
+  box-sizing: content-box;
+  padding: 0;
+  font-family: 'font-bold',sans-serif;
+  font-weight: 500;
+  background-color: var(--bg-color);
+  color:var(--text-color)
+}
+
+

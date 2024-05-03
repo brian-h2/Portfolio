@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-image: url(../icono.png);
+}
+
+.header .header-options ul{
+    display: flex;
+    gap: 40px;
+}
+
+.header .header-options ul a{
+    font-size: 1.5rem;
+}
