@@ -1,0 +1,23 @@
+.skills{
+    flex-wrap: wrap;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.skills h4{
+    font-size: 2.5rem;
+}
+
+.skills .skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills .skills-list img{
+    width: 40px;
+}
+

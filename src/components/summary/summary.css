@@ -1,20 +1,96 @@
 .summary{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    border: 1px solid white;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .summary .summary-title{
-    font-size: 3rem;
+    font-size: 1.8rem;
     text-align: center;
-    max-width: 570px;
-    border: 1px solid white;
+    width: 250px;
+}
+
+.summary-buttons{
+    display: flex;
+    
+}
+
+.summary-buttons button{
+    margin: 10px;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid rgb(19, 19, 19);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 var(--bg-color-box);
+   
+}
+
+.summary-buttons button:hover{
+    color: white;
+    box-shadow: inset 0 -100px 0 0 var(--bg-color-opacity);
+}
+
+.summary-buttons button:active{
+    transform: scale(0.9);
+}
+
+.summary-buttons button a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+.summary-redes{
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary-redes img{
+    margin-top: 5px;
+    width: 25px;
+}
+
+
+.summary-redes-foto img{
+    width: 150px;
+    border-radius: 20%;
 }
 
 .summary .summary-content{
-    font-size: 1.5rem;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: 'font-popins-light',sans-serif;
     text-align: center;
-    max-width: 580px;
-    border: 1px solid white;
+    color: var(--text-color);
+    width: 320px;
+}
+
+.summary .summary-content span{
+    color: var(--bg-color-box);
+}
+
+.summary-history{
+    text-align: center;
+}
+
+.summary-history h3{
+    font-size: 2.5rem;
+}
+
+.summary-history p{
+    font-size: 1.2rem;
+    font-family: 'font-popins-light',sans-serif;
+    max-width: 500px;
 }

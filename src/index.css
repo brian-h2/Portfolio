@@ -1,8 +1,9 @@
 :root {
     --bg-color: #003C43;
-    --bg-color-opacity: #006f7b;
+    --bg-color-opacity: #12909e;
     --text-color: #E3FEF7;
     --box-color: #77B0AA;
+    --bg-color-box: #135D66;
 }
 
 @font-face {
@@ -16,14 +17,27 @@
 }
 
 
+@font-face{
+  font-family: 'font-popins-light';
+  src: url('./fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'font-popins-medium';
+  src: url('./fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+
 body {
   margin: 0;
   box-sizing: content-box;
   padding: 0;
   font-family: 'font-bold',sans-serif;
-  font-weight: 500;
   background-color: var(--bg-color);
-  color:var(--text-color)
+  color:var(--text-color);
+  background-image: url(assets/images/backgrounds/backgroun-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

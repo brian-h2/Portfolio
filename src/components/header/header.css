@@ -1,16 +1,50 @@
 .header{
     display: flex;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
     background-image: url(../icono.png);
+    border-bottom: 1px solid var(--box-color);
 }
+
+.header .header-name{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 12px;
+}
+
+.header .header-name img{
+    width: 40px;
+}
+
+.header .header-options img{
+    width: 35px;
+}
+
+
 
 .header .header-options ul{
     display: flex;
+    flex-direction: column;
+    display: none;
     gap: 40px;
 }
 
 .header .header-options ul a{
     font-size: 1.5rem;
+}
+
+
+@media (min-width: 830px) {
+    .header .header-options img{
+        display: none;
+    }
+
+    .header .header-options ul{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
 }
