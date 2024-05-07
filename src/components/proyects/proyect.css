@@ -4,6 +4,8 @@
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .proyects .proyects-title h3{
@@ -21,7 +23,13 @@
     margin: 15px;
     border-radius: 5% ;
     background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
 
+}
+
+.proyects .proyects-content .proyect:hover{
+    transform: translateY(-10px);
+    
 }
 
 .proyects .proyects-content .proyect-resum p{
@@ -50,5 +58,16 @@
 
 .proyects .proyects-content .proyect img{
     width: 100%;
+
+}
+
+@media (min-width:768px) {
+    .proyects .proyects-title h3{
+        font-size: 3rem;
+    }
+    
+}
+
+@media (min-width: 1024px){
 
 }

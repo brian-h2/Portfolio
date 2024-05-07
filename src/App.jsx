@@ -1,5 +1,5 @@
 import './App.css'
-import { Contact } from './components/contact/contact';
+
 import { Header } from './components/header/header'
 import { Proyects } from './components/proyects/proyects'
 import Skills from './components/skills/skills';
@@ -10,17 +10,17 @@ function App() {
  
 
   return (
-    <>
     <div className="app">
+     
+        <Header/>
+        <Summary/>
+        <Proyects/>
+        <Skills/>
     
-      <Header/>
-      <Summary/>
-      <Proyects/>
+     
       {/* <Contact/>  */}
-      <Skills/>
+     
     </div>
-       
-    </>
   )
 }
 

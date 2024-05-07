@@ -1,8 +1,9 @@
 .header{
     display: flex;
-    max-width: 1200px;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
+    
     padding: 0px 10px;
     background-image: url(../icono.png);
     border-bottom: 1px solid var(--box-color);
@@ -22,8 +23,6 @@
     width: 35px;
 }
 
-
-
 .header .header-options ul{
     display: flex;
     flex-direction: column;
@@ -33,6 +32,13 @@
 
 .header .header-options ul a{
     font-size: 1.5rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.header .header-options ul a:hover{
+    text-transform: capitalize;
+    color: var(--bg-color-box);
+    cursor: pointer;
 }
 
 
@@ -47,4 +53,22 @@
         flex-direction: row;
         gap: 40px;
     }
+}
+
+@media (min-width: 1024px) {
+    .header{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        
+        padding: 0px;
+    }
+
+    .header .header-options ul a{
+        font-size: 1.6rem
+    }
+
+   .header .header-name{
+    font-size: 1.3rem;
+   }
 }

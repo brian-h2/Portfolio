@@ -14,8 +14,7 @@ import githubIcon from '../../assets/icons/github.svg';
 
 export function Proyects() {
     return (
-        <>
-            <div className="proyects">
+        <div className="proyects">
                 <div className="proyects-title">
                     <h3>Proyects</h3>
                 </div>
@@ -69,7 +68,7 @@ export function Proyects() {
                     <img src={proyectFour}/>
                             <div className="proyect-resum">
                             <p>Eccomerce</p>
-                                <a target="blank"href='https://github.com/brian-h2/Hotel-Booking'><img src={githubIcon} alt=""/></a>
+                                <a target="blank"href='https://github.com/brian-h2/Proyecto-final-JS-CoderHouse'><img src={githubIcon} alt=""/></a>
                                 <a href="https://github.com/brian-h2/Proyecto-final-JS-CoderHouse" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                             </div>
                             
@@ -83,6 +82,5 @@ export function Proyects() {
                     </div>
                 </div>
             </div>
-        </>
     )
 }

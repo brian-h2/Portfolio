@@ -5,7 +5,6 @@ import hamburIcon from '../../assets/icons/menu-hambur.svg'
 
 export function Header() {
     return (
-        <>
         <div className="header">
             <div className="header-name">
                 <h1>Brian</h1>
@@ -22,6 +21,5 @@ export function Header() {
                 </ul>
             </div>
         </div>
-        </>
     )
 }

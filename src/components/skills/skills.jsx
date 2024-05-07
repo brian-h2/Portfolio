@@ -14,8 +14,7 @@ import iconNet from '../../assets/icons/icons-lenguajes/net.svg';
 
 const Skills = () => {
     return (
-        <>
-            <div className="skills"> 
+        <div className="skills"> 
                 <h4>Skills</h4>
                 <ul className='skills-list'>
                     <li><img src={iconCss} alt="icon" /></li>
@@ -24,16 +23,12 @@ const Skills = () => {
                     <li><img src={iconReact} alt="icon" /></li>
                     <li><img src={iconNode} alt="icon" /></li>
                     <li><img src={iconJs} alt="icon" /></li>
-                    
                     <li><img src={iconBoostrap} alt="icon" /></li>
                     <li><img src={iconCSharp} alt="icon" /></li>
                     <li><img src={iconGit} alt="icon" /></li>
                     <li><img src={iconNet} alt="icon" /></li>
-
                 </ul>
             </div>
-
-        </>
     )
 }
 

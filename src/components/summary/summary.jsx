@@ -4,19 +4,21 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import gmailIcon from '../../assets/icons/gmail.svg';
 import fotoPerfil from '../../assets/images/foto-perfil.jpg';
 
+const element = document.querySelector('.summary');
+
+
 export function Summary() {
     return (
-        <>
         <div className="summary">
             <div className="summary-title">
-                <h2>Hi, I Am Developer!</h2>
+                <h2 >Hi, I Am Developer!</h2>
                 <div className="summary-redes-foto">
                     <img src={fotoPerfil} alt="foto-perfil" />
                 </div>
             </div>
             <div className="summary-buttons">
-                <button>Proyectos</button>
-                <button><a target="blank" href="https://drive.google.com/file/d/1UMZVqgH3x2MS5KKo4MW9gUWdkyaEAQAr/view?usp=sharing" >Descargar CV</a></button>
+                <button><a>Proyects</a></button>
+                <button><a target="blank" href="https://drive.google.com/file/d/1UMZVqgH3x2MS5KKo4MW9gUWdkyaEAQAr/view?usp=sharing" >Download CV</a></button>
             </div>
             
             <div className="summary-redes">
@@ -25,15 +27,12 @@ export function Summary() {
                 <a target="blank" href="https://www.linkedin.com/in/brian-heredia-4a7a12240/"><img src={linkedinIcon} alt="linkedin-icon" /></a> 
             </div>
             <div className="summary-content">
-                <p>Me dedico al <span> Desarrollo Web </span> brindando distintos servicios y <span> Aplicaciones en Escritorio </span> para cubrir necesidades en emprendimientos</p>
-            </div>
+                <p>I am dedicated to<span> Web Development </span> providing diferent services and <span> Desktop Applications </span> to meet the need of businesses</p>
+            </div >
             <div className="summary-history">
                 <h3>Summary</h3>
-                <p>My name is Brian Heredia and my passion for solving problems and building applications is what motivates me to apply for this opportunity. Although I don't have work experience yet, I have spent three years studying and developing skills in the field of software development. During my first year, I completed web development courses, and in my second year, I began my career in systems analysis. </p>
-            </div>
-            
+                <p>My name is Brian Heredia and my passion for solving problems and creating applications is what I am passionate about. Although I do not have work experience yet, I have been studying and developing skills in the field of software development for three years. During my first year, I completed web development courses with <span>HTML, CSS, JavaScript, React and Firebase</span> and, in my second year, I began my career in Systems Analysis working with <span>C# in .NET</span> creating applications for service administration </p>
+            </div>  
         </div>
-        </>
     )
 }
-// <p>Mi nombre es Brian Heredia, Soy del interior de Córdoba, Jesus Maria. Actualmente me encuentro desarrollandome en el area web y software, con un stack de conocimientos necesarios para llevar a cabo un proyecto, soluciones, planificacion y producto final.</p>
