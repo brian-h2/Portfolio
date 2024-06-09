@@ -1,17 +1,19 @@
 import './header.css'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import scriptIcon from '../../assets/icons/script.svg' 
 import hamburIcon from '../../assets/icons/menu-hambur.svg' 
 
 
 export function Header() {
 
-    const [estado,setEstado] = useState(false);
+    const menuRef = useRef();
+    const menuHambur = useRef();
 
     //El estado en un principio es false, al darle click se volveria true y mostraria las opciones
 
     const handleMenuClick = () => {
-        
+        menuHambur.current.classList.toggle('active')
+        menuRef.current.classList.toggle('active')
     }
 
     return (
@@ -22,8 +24,8 @@ export function Header() {
             </div>
               
             <div className="header-options">
-                <img className="menu" src={hamburIcon}  alt="hambur-icon"  id="hambur-icon"/>
-                <ul className="header-options-links">
+                <img className="menu" ref={menuHambur} src={hamburIcon} onClick={handleMenuClick} alt="hambur-icon"  id="hambur-icon"/>
+                <ul className="header-options-links" ref={menuRef}>
                     <a>Home</a>
                     <a>Summary</a>
                     <a>Proyects</a>
