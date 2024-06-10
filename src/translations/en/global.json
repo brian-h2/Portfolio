@@ -1,0 +1,29 @@
+{
+    "resumen": {
+        "resumen-title": "Hi, I Am Developer!",
+        "resumen-profile":"My name is Brian Heredia and my passion for solving problems and creating applications is what I am passionate about. Although I do not have work experience yet, I have been studying and developing skills in the field of software development for three years. During my first year, I completed web development courses with HTML, CSS, JavaScript, React and Firebase and, in my second year, I began my career in Systems Analysis working with C# in .NET creating applications for service administration",
+        "resumen-boton": "Proyects",
+        "resumen-boton-descarga": "Download CV",
+        "resumen-title-summary": "Summary",
+        "resumen-presentacion": "I am dedicated to Web Development providing diferent services and Desktop Applications to meet the need of businesses"
+    },
+
+    "proyects": {
+        "proyects-title": "Proyects",
+        "proyects-content": "Eccomerce",
+        "proyects-content-2": "Administration System",
+        "proyects-content-3": "Clone Web"
+    },
+
+    "skills": {
+        "skills-title": "Skills"
+    },
+
+    "navbar": {
+        "navbar-element-1": "Home",
+        "navbar-element-2": "Summary",
+        "navbar-element-3": "Proyects",
+        "navbar-element-4": "Contact"
+
+    }
+}

@@ -1,15 +1,17 @@
 import './header.css'
 import { useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import scriptIcon from '../../assets/icons/script.svg' 
 import hamburIcon from '../../assets/icons/menu-hambur.svg' 
 
 
+
 export function Header() {
+
+    const [t, i18n] = useTranslation("global");
 
     const menuRef = useRef();
     const menuHambur = useRef();
-
-    //El estado en un principio es false, al darle click se volveria true y mostraria las opciones
 
     const handleMenuClick = () => {
         menuHambur.current.classList.toggle('active')
@@ -25,11 +27,14 @@ export function Header() {
               
             <div className="header-options">
                 <img className="menu" ref={menuHambur} src={hamburIcon} onClick={handleMenuClick} alt="hambur-icon"  id="hambur-icon"/>
+                <button onClick={() => i18n.changeLanguage("es")}>ES</button>
+                <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+                
                 <ul className="header-options-links" ref={menuRef}>
-                    <a>Home</a>
-                    <a>Summary</a>
-                    <a>Proyects</a>
-                    <a>Contact</a>
+                    <a>{t("navbar.navbar-element-1")}</a>
+                    <a>{t("navbar.navbar-element-2")}</a>
+                    <a>{t("navbar.navbar-element-3")}</a>
+                    <a>{t("navbar.navbar-element-4")}</a>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,29 @@
+{
+    "resumen": {
+        "resumen-title": "Bienvenido, soy desarrollador",
+        "resumen-profile": "Mi nombre es Brian Heredia y mi pasión por resolver problemas y crear aplicaciones es lo que me apasiona. Aunque aún no tengo experiencia laboral, llevo tres años estudiando y desarrollando habilidades en el campo del desarrollo de software. Durante mi primer año, completé cursos de desarrollo web con HTML, CSS, JavaScript, React y Firebase y, en mi segundo año, comencé mi carrera en Análisis de Sistemas trabajando con C# en .NET. creación de aplicaciones para la administración de servicios",
+        "resumen-boton": "Proyectos",
+        "resumen-boton-descarga": "Descargar CV",
+        "resumen-title-summary": "Resumen",
+        "resumen-presentacion": "Actualmente me dedico al Desarrollo Web brindando diferentes servicios y Aplicaciones de Escritorio para satisfacer las necesidades de los negocios"
+    },
+
+    "proyects": {
+        "proyects-title": "Proyectos",
+        "proyects-content": "Comercios",
+        "proyects-content-2": "Sistema de administracion",
+        "proyects-content-3": "Clon de una web"
+    },
+
+    "skills": {
+        "skills-title": "Habilidades"
+    },
+
+    "navbar": {
+        "navbar-element-1": "Inicio",
+        "navbar-element-2": "Resumen",
+        "navbar-element-3": "Proyectos",
+        "navbar-element-4": "Contacto"
+
+    }
+}

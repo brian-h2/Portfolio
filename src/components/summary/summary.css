@@ -83,7 +83,7 @@
 }
 
 .summary .summary-content span{
-    color: var(--bg-color-box);
+    color: black
 }
 
 .summary-history{

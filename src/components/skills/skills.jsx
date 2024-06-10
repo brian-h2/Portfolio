@@ -1,5 +1,5 @@
 import './skills.css'
-
+import { useTranslation } from 'react-i18next'
 import iconCss from '../../assets/icons/icons-lenguajes/css.svg';
 import iconHtml from '../../assets/icons/icons-lenguajes/html.svg';
 import iconSaas from '../../assets/icons/icons-lenguajes/sass.svg';
@@ -13,9 +13,12 @@ import iconNet from '../../assets/icons/icons-lenguajes/net.svg';
 
 
 const Skills = () => {
+
+    const [t, i18n] = useTranslation("global");
+
     return (
         <div className="skills"> 
-                <h4>Skills</h4>
+                <h4>{t("skills.skills-title")}</h4>
                 <ul className='skills-list'>
                     <li><img src={iconCss} alt="icon" /></li>
                     <li><img src={iconHtml} alt="icon" /></li>

@@ -1,4 +1,5 @@
 import './proyect.css'
+import { useTranslation } from 'react-i18next'
 import proyectOne from '../../assets/images/1.png';
 import proyectTwo from '../../assets/images/2.png';
 import proyectThree from '../../assets/images/3.png';
@@ -16,17 +17,22 @@ import webIcon from '../../assets/icons/web.svg';
 import iconNode from '../../assets/icons/icons-lenguajes/node.svg';
 import githubIcon from '../../assets/icons/github.svg';
 
+
+
 export function Proyects() {
+
+    const [t, i18n] = useTranslation("global");
+
     return (
         <div className="proyects">
                 <div className="proyects-title">
-                    <h3>Proyects</h3>
+                    <h3>{t("proyects.proyects-title")}</h3>
                 </div>
                 <div className="proyects-content">
                     <div className="proyect">
                         <img src={proyectOne}/>
                         <div className="proyect-resum">
-                            <p>Eccomerce</p>
+                            <p>{t("proyects.proyects-content")}</p>
                             <a href="https://github.com/brian-h2/JavaScript" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="" srcset="" /></a>
                             <a href="https://e-commerce-silk-tau-28.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={webIcon} alt="" srcset="" /></a>
                         </div>
@@ -41,7 +47,7 @@ export function Proyects() {
                     <div className="proyect">
                     <img src={proyectTwo}/>
                             <div className="proyect-resum">
-                            <p>Clone Web</p>
+                            <p>{t("proyects.proyects-content3")}</p>
                                  <a href="https://github.com/brian-h2/Mouse-G520X-Web" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="" srcset="" /></a>
                                 <a href="https://mouse-g520-x-web.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={webIcon} alt="" srcset="" /></a>
                             </div>
@@ -56,7 +62,7 @@ export function Proyects() {
                     <div className="proyect">
                     <img src={proyectThree}/>
                             <div className="proyect-resum">
-                            <p>Clone Web</p>
+                            <p>{t("proyects.proyects-content-3")}</p>
                                 <a target="blank"href='https://github.com/brian-h2/Hotel-Booking'><img src={githubIcon} alt=""/></a>
                                 <a href="https://hotel-booking-nu-six.vercel.app/" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                             </div>
@@ -71,7 +77,7 @@ export function Proyects() {
                     <div className="proyect">
                         <img src={proyectFour}/>
                                 <div className="proyect-resum">
-                                <p>Eccomerce</p>
+                                <p>{t("proyects.proyects-content-3")}</p>
                                     <a target="blank"href='https://github.com/brian-h2/Proyecto-final-JS-CoderHouse'><img src={githubIcon} alt=""/></a>
                                     <a href="https://github.com/brian-h2/Proyecto-final-JS-CoderHouse" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                                 </div>
@@ -87,7 +93,7 @@ export function Proyects() {
                     <div className="proyect">
                         <img src={proyectFive}/>
                                 <div className="proyect-resum">
-                                <p>Administration System</p>
+                                <p>{t("proyects.proyects-content-2")}</p>
                                     <a target="blank"href='https://github.com/brian-h2/pryIntegrador'><img src={githubIcon} alt=""/></a>
                                 </div>
                                 

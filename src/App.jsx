@@ -16,7 +16,7 @@ function App() {
         <Summary/>
         <Proyects/>
         <Skills/>
-    
+      
      
       {/* <Contact/>  */}
      
