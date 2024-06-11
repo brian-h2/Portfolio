@@ -3,6 +3,8 @@ import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import scriptIcon from '../../assets/icons/script.svg' 
 import hamburIcon from '../../assets/icons/menu-hambur.svg' 
+import imageUsa from '../../assets/images/flags/usa.jpg';
+import imageSpa from '../../assets/images/flags/spain.png';
 
 
 
@@ -27,15 +29,23 @@ export function Header() {
               
             <div className="header-options">
                 <img className="menu" ref={menuHambur} src={hamburIcon} onClick={handleMenuClick} alt="hambur-icon"  id="hambur-icon"/>
-                <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-                <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-                
-                <ul className="header-options-links" ref={menuRef}>
-                    <a>{t("navbar.navbar-element-1")}</a>
-                    <a>{t("navbar.navbar-element-2")}</a>
-                    <a>{t("navbar.navbar-element-3")}</a>
-                    <a>{t("navbar.navbar-element-4")}</a>
-                </ul>
+                <div className='header-options-list'>
+                    <div className='header-idioma'>
+                        <button onClick={() => i18n.changeLanguage("es")}><img src={imageSpa}/></button>
+                        <button onClick={() => i18n.changeLanguage("en")}><img src={imageUsa}/></button>
+                    </div>
+                    
+                    <ul className="header-options-links" ref={menuRef}>
+                        <div className='header-idioma-buton'>
+                            <button onClick={() => i18n.changeLanguage("es")}><img src={imageSpa}/></button>
+                            <button onClick={() => i18n.changeLanguage("en")}><img src={imageUsa}/></button>
+                        </div>
+                        <a>{t("navbar.navbar-element-1")}</a>
+                        <a>{t("navbar.navbar-element-2")}</a>
+                        <a>{t("navbar.navbar-element-3")}</a>
+                        <a>{t("navbar.navbar-element-4")}</a>
+                    </ul>
+                </div>
             </div>
         </div>
     )

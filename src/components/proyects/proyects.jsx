@@ -47,7 +47,7 @@ export function Proyects() {
                     <div className="proyect">
                     <img src={proyectTwo}/>
                             <div className="proyect-resum">
-                            <p>{t("proyects.proyects-content3")}</p>
+                            <p>{t("proyects.proyects-content-3")}</p>
                                  <a href="https://github.com/brian-h2/Mouse-G520X-Web" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="" srcset="" /></a>
                                 <a href="https://mouse-g520-x-web.vercel.app/" target="_blank" rel="noopener noreferrer"><img src={webIcon} alt="" srcset="" /></a>
                             </div>

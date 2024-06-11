@@ -1,3 +1,15 @@
 .app{
     user-select: none;
 }
+
+
+.header{
+    animation: move 2s forwards;
+}
+
+@keyframes move {
+    to {
+        
+      background-color: rgba(0, 0, 0, 0.2) ;
+    }
+}

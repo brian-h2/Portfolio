@@ -5,6 +5,10 @@
     align-items: center;
     background-image: url(../icono.png);
     border-bottom: 1px solid var(--box-color);
+    position: fixed;
+    margin-top: 12px;
+    top: -22px;
+    z-index: 2000;
 }
 
 .header .header-name{
@@ -13,9 +17,60 @@
     font-size: 12px;
 }
 
+
 .header .header-name img{
     width: 40px;
 }
+
+.header .header-options{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .header-options .header-idioma{
+    display: flex;
+    gap: 10px;
+}
+
+.header .header-options .header-idioma button{
+   background-color: transparent;
+   border-radius: 20%;
+   border: 2px solid black;
+   color: white;
+   font-weight: 700;
+   transition: 0.2s ease-in-out all;
+   padding: 5px;
+   font-size: 12px;
+   max-height: 50px;
+   margin: auto;
+   display: none;
+}
+
+
+.header .header-options .header-idioma-buton{
+    display: flex;
+}
+.header .header-options .header-idioma-buton button{
+   background-color: transparent;
+   border-radius: 20%;
+   border: none;
+   color: white;
+   font-weight: 700;
+   transition: 0.2s ease-in-out all;
+   padding: 10px;
+   font-size: 12px;
+   max-height: 50px;
+   display: block;
+   margin: auto;
+}
+
+.header .header-options .header-idioma button:hover{
+    cursor: pointer;
+    background-color: var(--bg-color-box);
+}
+
 
 .header .header-options img{
     width: 35px;
@@ -31,7 +86,7 @@
     flex-direction: column;
     display: none;
     gap: 40px;
-    right: -450px;
+   
 }
 
 .header .header-options ul a{
@@ -49,6 +104,7 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6) ;
     padding: 15px 18px;
+    margin-top: 60px;
     margin-right: 20px;
     text-align: center;
     display: flex;
@@ -56,26 +112,41 @@
     justify-content: center;
     border-radius: 15px;
     animation: move 0.5s ease-in-out forwards;
+    right: 20px;
 }
 
 @keyframes move {
     to {
-      transform: translateX(-450px);
+        display: flex;
       background-color: rgba(0, 0, 0, 0.6) ;
     }
 }
 
 
 @media (min-width: 830px) {
-    .header .header-options img{
+
+
+    .header .header-options .menu{
         display: none;
     }
 
-    .header .header-options ul{
+    .header .header-options .header-options-list ul{
         display: block;
         display: flex;
+        align-items: center;
         flex-direction: row;
         gap: 40px;
+    }
+
+    .header .header-options .header-options-list ul a {
+        font-size: 20px;
+    }
+
+    .header .header-options .header-options-list{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 100%;
     }
 }
 
@@ -84,12 +155,15 @@
         display: flex;
         width: 100%;
         justify-content: space-around;
-        
         padding: 0px;
     }
 
     .header .header-options ul a{
         font-size: 1.6rem
+    }
+    .header .header-options .header-options-links{
+        display: flex;
+        flex-direction: row-reverse;
     }
 
    .header .header-name{

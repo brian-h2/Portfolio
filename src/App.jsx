@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
      
-        <Header/>
+        <Header className='header'/>
         <Summary/>
         <Proyects/>
         <Skills/>

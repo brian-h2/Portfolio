@@ -28,7 +28,10 @@
 }
 
 .proyects .proyects-content .proyect:hover{
+    position: relative;
+    z-index: 1000;
     transform: translateY(-10px);
+    cursor: pointer;
     
 }
 

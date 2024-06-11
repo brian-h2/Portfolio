@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
 }
 
 .summary .summary-title{
@@ -120,7 +121,7 @@
         flex-direction: row;
         justify-content: center;
         width: 100%;
-        gap: 10rem;
+        gap: 13rem;
         align-items: center;
     }
 
@@ -177,7 +178,9 @@
 
 @media (min-width:1027px) {
 
-
+   .summary{
+    margin-top: 150px;
+   }
 
     .summary-redes-foto{
         max-width: 350px;
@@ -186,11 +189,11 @@
 
     .summary-title{
         display: flex;
-        gap: 12rem;
+        gap: 16rem;
     }
 
     .summary-title h2{
-        font-size: 4.1rem;
+        font-size: 3.5rem;
         width: 300px;
     }
 
