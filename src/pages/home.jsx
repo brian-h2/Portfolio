@@ -4,7 +4,9 @@ import { Header } from '../components/header/header';
 import { Proyects } from '../components/proyects/proyects';
 import Skills from '../components/skills/skills';
 
+
 const Home = () => {
+
   return (
     <>
         <Header/>
