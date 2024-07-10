@@ -1,5 +1,4 @@
 import './header.css'
-import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import scriptIcon from '../../assets/icons/script.svg'; 
@@ -38,10 +37,10 @@ export function Header() {
                             <button onClick={() => i18n.changeLanguage("es")}><img src={imageSpa} alt="Spanish flag" /></button>
                             <button onClick={() => i18n.changeLanguage("en")}><img src={imageUsa} alt="USA flag" /></button>
                         </div>
-                        <li><Link to="/home">{t("navbar.navbar-element-1")}</Link></li>
-                        <li><Link to="/Summary">{t("navbar.navbar-element-2")}</Link></li>
-                        <li><Link to="/Proyects">{t("navbar.navbar-element-3")}</Link></li>
-                        <li><Link to="/Skills">{t("navbar.navbar-element-4")}</Link></li>
+                        <li><a href="#">{t("navbar.navbar-element-1")}</a></li>
+                        <li><a href="#summary">{t("navbar.navbar-element-2")}</a></li>
+                        <li><a href="#projects">{t("navbar.navbar-element-3")}</a></li>
+                        <li><a href="#skills">{t("navbar.navbar-element-4")}</a></li>
                     </ul>
                 </div>
             </div>
