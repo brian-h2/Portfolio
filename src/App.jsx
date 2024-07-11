@@ -1,17 +1,17 @@
 import './App.css'
+import Loader from './components/loader/loader';
 import Home from './pages/home';
 import { useEffect,useState } from 'react';
 
 function App() {
 
   const [load,setLoad] = useState(false)
-  const [time,setTime] = useState(false)
 
   useEffect(() => {
     setLoad(false)
     const timer = setTimeout(() => {
       setLoad(true)
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer)
   }, []);
@@ -19,14 +19,13 @@ function App() {
   return (
     
     <div className='app'>
-      <p>{load ? <Home/> : 'Cargando...'}</p>
+      <p>{load ? <Home/> : <Loader/>}</p>
     </div>
   )
 }
 
 export default App
 
-//Personalizar cargando
 //Renovar design 
 //Agregar Animaciones
 //Corregir Errores

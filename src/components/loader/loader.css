@@ -1,0 +1,72 @@
+.dots{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.dots .dots-loader{
+    margin: auto;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.dots .dots-loader .dots-loader-element{
+    width: 100px;
+    height: 70%;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.dots .dots-loader .dots-loader-element:first-child{
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1s infinite;
+    animation-delay: 0.1s;
+}
+
+.dots-loader-element:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1s infinite;
+    animation-delay: 0.3s;
+}
+
+.dots-loader-element:nth-child(3) {
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1s infinite;
+    animation-delay: 0.5s;
+}
+
+.dots-loader-element:nth-child(4) {
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1s infinite;
+    animation-delay: 0.7s;;
+}
+
+.dots .dots-loader .dots-loader-element:last-child{
+    background-color: rgb(255, 255, 255);
+    animation: bounce 1s infinite;
+    animation-delay: 0.9s;
+}
+
+
+@keyframes bounce {
+   
+    40% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
