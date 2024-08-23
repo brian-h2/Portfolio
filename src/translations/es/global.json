@@ -10,9 +10,13 @@
 
     "proyects": {
         "proyects-title": "Proyectos",
-        "proyects-content": "Comercios",
-        "proyects-content-2": "Sistema de administracion",
-        "proyects-content-3": "Clon de una web"
+        "proyects-content": "Eccomerce de tecnologia",
+        "proyects-content-2": "Sistema de gestion para empleados",
+        "proyects-content-3": "Pagina logitech sobre el Mouse G502X",
+        "proyects-content-4": "Calculadora de edad",
+        "proyects-content-5": "Tienda de indumentaria para basketball"
+
+
     },
 
     "skills": {

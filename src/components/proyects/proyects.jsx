@@ -62,9 +62,9 @@ export function Proyects() {
                     <div className="proyect">
                     <img src={proyectThree}/>
                             <div className="proyect-resum">
-                            <p>{t("proyects.proyects-content-3")}</p>
-                                <a target="blank"href='https://github.com/brian-h2/Hotel-Booking'><img src={githubIcon} alt=""/></a>
-                                <a href="https://hotel-booking-nu-six.vercel.app/" target='blank'><img src={webIcon} alt="" srcset=""/></a>
+                            <p>{t("proyects.proyects-content-4")}</p>
+                                <a target="blank"href='https://github.com/brian-h2/Age-Calculator'><img src={githubIcon} alt=""/></a>
+                                <a href="https://age-calculator-rho-eight.vercel.app/" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                             </div>
                         
                             <div className='proyect-icons'>
@@ -72,14 +72,15 @@ export function Proyects() {
                                 <img src={iconHtml}/>
                                 <img src={iconJs}/>
                                 <img src={iconNode}/>
+                                <img src={iconReact}/>
                             </div>
                     </div>
                     <div className="proyect">
                         <img src={proyectFour}/>
                                 <div className="proyect-resum">
-                                <p>{t("proyects.proyects-content-3")}</p>
+                                <p>{t("proyects.proyects-content-5")}</p>
                                     <a target="blank"href='https://github.com/brian-h2/Proyecto-final-JS-CoderHouse'><img src={githubIcon} alt=""/></a>
-                                    <a href="https://github.com/brian-h2/Proyecto-final-JS-CoderHouse" target='blank'><img src={webIcon} alt="" srcset=""/></a>
+                                    <a href="https://pagina-js-coderhouse.vercel.app/" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                                 </div>
                                 
                                 <div className='proyect-icons'>
