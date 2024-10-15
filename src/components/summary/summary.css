@@ -11,7 +11,6 @@
 .summary .summary-title{
     font-size: 1.8rem;
     text-align: center;
-    max-width: 100%;
 }
 
 .summary-buttons{
@@ -110,9 +109,8 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
-        max-width: 1600px;
+        max-width: 1200px;
         margin: auto;
-       
         margin-top: 5rem;
     }
 
@@ -121,19 +119,20 @@
         flex-direction: row;
         justify-content: center;
         width: 100%;
-        gap: 13rem;
+        gap: 2rem;
         align-items: center;
+        
     }
 
     .summary-title h2{
         font-size: 3rem;
-        width: 200px;
         text-align: center;
     }
 
     .summary-redes-foto{
         max-width: 200px;
         min-width: 200px;
+        margin-right: 50px;
     }
 
     .summary-redes-foto img{
@@ -189,12 +188,16 @@
 
     .summary-title{
         display: flex;
-        gap: 16rem;
+        gap: 5rem;
     }
 
     .summary-title h2{
-        font-size: 3.5rem;
-        width: 300px;
+        font-size: 4rem;
+        max-width: 600px;
+    }
+
+    .summary-title .summary-title-content h3{
+        color: var(--box-color)
     }
 
 }

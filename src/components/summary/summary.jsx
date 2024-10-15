@@ -13,7 +13,10 @@ export function Summary() {
     return (
         <div className="summary">
             <div className="summary-title">
-                <h2 >{t("resumen.resumen-title")}</h2>
+                <div className="summary-title-content">
+                    <h2 >{t("resumen.resumen-title")}</h2>
+                    <h3>{t("resumen.resumen-title-2")}💻</h3>
+                </div>
                 <div className="summary-redes-foto">
                     <img src={fotoPerfil} alt="foto-perfil" />
                 </div>

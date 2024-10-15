@@ -1,8 +1,8 @@
 :root {
-    --bg-color: #003C43;
-    --bg-color-opacity: #12909e;
-    --text-color: #E3FEF7;
-    --box-color: #77B0AA;
+    --bg-color: #222831;
+    --bg-color-opacity: #31363F;
+    --text-color: #EEEEEE;
+    --box-color: #76ABAE;
     --bg-color-box: #135D66;
 }
 
@@ -39,9 +39,6 @@ body {
   font-family: 'font-bold',sans-serif;
   background-color: var(--bg-color);
   color:var(--text-color);
-  background-image: url(assets/images/backgrounds/backgroun-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 
