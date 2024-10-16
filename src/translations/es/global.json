@@ -21,7 +21,9 @@
     },
 
     "skills": {
-        "skills-title": "Habilidades"
+        "skills-title": "Frontend",
+        "skills-title-2": "Backend"
+
     },
 
     "navbar": {

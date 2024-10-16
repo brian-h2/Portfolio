@@ -24,12 +24,12 @@ export function Proyects() {
     const [t, i18n] = useTranslation("global");
 
     return (
-        <div className="proyects">
+        <div className="proyects"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" data-aos-easing="ease-in-out">
                 <div className="proyects-title">
                     <h3>{t("proyects.proyects-title")}</h3>
                 </div>
                 <div className="proyects-content">
-                    <div className="proyect">
+                    <div className="proyect" >
                         <img src={proyectOne}/>
                         <div className="proyect-resum">
                             <p>{t("proyects.proyects-content")}</p>
@@ -44,7 +44,7 @@ export function Proyects() {
                             <img src={iconReact}/>
                         </div>
                     </div>
-                    <div className="proyect">
+                    <div className="proyect" >
                     <img src={proyectTwo}/>
                             <div className="proyect-resum">
                             <p>{t("proyects.proyects-content-3")}</p>
@@ -59,7 +59,7 @@ export function Proyects() {
                                 <img src={iconNode}/>
                             </div>
                     </div>
-                    <div className="proyect">
+                    <div className="proyect" >
                     <img src={proyectThree}/>
                             <div className="proyect-resum">
                             <p>{t("proyects.proyects-content-4")}</p>
@@ -75,10 +75,10 @@ export function Proyects() {
                                 <img src={iconReact}/>
                             </div>
                     </div>
-                    <div className="proyect">
+                    <div className="proyect"  >
                         <img src={proyectFour}/>
                                 <div className="proyect-resum">
-                                <p>{t("proyects.proyects-content-5")}</p>
+                                    <p>{t("proyects.proyects-content-5")}</p>
                                     <a target="blank"href='https://github.com/brian-h2/Proyecto-final-JS-CoderHouse'><img src={githubIcon} alt=""/></a>
                                     <a href="https://pagina-js-coderhouse.vercel.app/" target='blank'><img src={webIcon} alt="" srcset=""/></a>
                                 </div>
@@ -91,10 +91,10 @@ export function Proyects() {
                                 
                                 </div>
                     </div>
-                    <div className="proyect">
+                    <div className="proyect" >
                         <img src={proyectFive}/>
                                 <div className="proyect-resum">
-                                <p>{t("proyects.proyects-content-2")}</p>
+                                    <p>{t("proyects.proyects-content-2")}</p>
                                     <a target="blank"href='https://github.com/brian-h2/pryIntegrador'><img src={githubIcon} alt=""/></a>
                                 </div>
                                 

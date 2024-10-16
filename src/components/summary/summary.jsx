@@ -12,7 +12,7 @@ export function Summary() {
 
     return (
         <div className="summary">
-            <div className="summary-title">
+            <div className="summary-title" data-aos-duration="1000"  data-aos-easing="ease-in-out" data-aos="fade-up">
                 <div className="summary-title-content">
                     <h2 >{t("resumen.resumen-title")}</h2>
                     <h3>{t("resumen.resumen-title-2")}💻</h3>
@@ -34,7 +34,7 @@ export function Summary() {
             <div className="summary-content">
                 <p>{t("resumen.resumen-presentacion")}</p>
             </div >
-            <div className="summary-history">
+            <div className="summary-history"  data-aos-duration="1000"  data-aos-easing="ease-in-out" data-aos="fade-up">
                 <h3>{t("resumen.resumen-title-summary")}</h3>
                 <p>{t("resumen.resumen-profile")}</p>
             </div>  
