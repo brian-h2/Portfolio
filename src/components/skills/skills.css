@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     max-width: 800px;
     margin: auto 12px;
     padding: 10px;
@@ -32,7 +32,6 @@
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     max-width: 200px;
-    margin: 10px;
     align-items: center;
     display: flex;
     justify-content: center;
