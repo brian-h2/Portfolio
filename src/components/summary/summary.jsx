@@ -22,7 +22,7 @@ export function Summary() {
                 </div>
             </div>
             <div className="summary-buttons">
-                <button><a>{t("resumen.resumen-boton")}</a></button>
+                <button><a href='#projects'>{t("resumen.resumen-boton")}</a></button>
                 <button><a target="blank" href="https://drive.google.com/file/d/1UMZVqgH3x2MS5KKo4MW9gUWdkyaEAQAr/view?usp=sharing" >{t("resumen.resumen-boton-descarga")}</a></button>
             </div>
             

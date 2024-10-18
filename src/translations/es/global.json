@@ -2,11 +2,11 @@
     "resumen": {
         "resumen-title": "!Hola!👋Soy Brian Heredia!",
         "resumen-title-2": "Desarrollador Full-Stack",
-        "resumen-profile": "Mi nombre es Brian Heredia y mi pasión por resolver problemas y crear aplicaciones es lo que me apasiona.Llevo tres años estudiando y desarrollando habilidades en el campo del desarrollo de software. Durante mi primer año, completé cursos de desarrollo web con HTML, CSS, JavaScript, React y Firebase y, en mi segundo año, comencé mi carrera en Análisis de Sistemas trabajando con C# en .NET. creación de aplicaciones para la administración de servicios",
+        "resumen-profile": "Mi nombre es Brian Heredia y mi pasión por resolver problemas y crear aplicaciones es lo que me apasiona. Llevo tres años estudiando y desarrollando habilidades en el campo del desarrollo de software. Durante mi primer año, completé cursos de desarrollo web con HTML, CSS, JavaScript, React y Firebase y, en mi segundo año, comencé mi carrera en Análisis de Sistemas trabajando con C# en .NET. creación de aplicaciones para la administración de servicios.",
         "resumen-boton": "Proyectos",
         "resumen-boton-descarga": "Descargar CV",
         "resumen-title-summary": "Resumen",
-        "resumen-presentacion": "Actualmente me dedico al Desarrollo Web brindando diferentes servicios y Aplicaciones de Escritorio para satisfacer las necesidades de los negocios"
+        "resumen-presentacion": "Actualmente me dedico al Desarrollo Full-Stack con un amplio stack de tecnologias tanto para crear aplicaciones web como de escritorio, siempre cumpliendo con las expectactivas del cliente."
     },
 
     "proyects": {

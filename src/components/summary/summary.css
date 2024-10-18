@@ -74,7 +74,7 @@
 }
 
 .summary .summary-content{
-    margin-top: 10px;
+    margin: 0px 5px 0px 5px;
     font-size: 21px;
     font-family: 'font-popins-light',sans-serif;
     text-align: center;
@@ -98,6 +98,7 @@
     font-size: 1.2rem;
     font-family: 'font-popins-light',sans-serif;
     max-width: 1200px;
+    margin: 0px 20px;
 }
 
 .summary-history p span{
