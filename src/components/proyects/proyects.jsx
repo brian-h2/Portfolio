@@ -101,7 +101,6 @@ export function Proyects() {
                                 <div className='proyect-icons'>
                                     <img src={iconCsharp}/>
                                     <img src={iconNet}/>
-                                    <img src={iconGit}/>
                                 
                                 </div>
                         </div>
